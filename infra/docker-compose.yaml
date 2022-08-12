@@ -14,7 +14,10 @@ services:
     env_file:
       - ./.env
   web:
-    image: api_yamdb:latest
+    image: invictus7/api_yamdb:latest
+    build:
+      context: ../api_yamdb
+      dockerfile: Dockerfile
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value,
