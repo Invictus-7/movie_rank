@@ -61,6 +61,8 @@ jobs:
         with:
           push: true
           tags: invictus7/api_yamdb:latest
+          context: api_yamdb
+          file: api_yamdb/Dockerfile
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
