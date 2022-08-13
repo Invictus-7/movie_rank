@@ -14,7 +14,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: invictus7/api_yamdb:latest
+    image: invictus7/api_yamdb:v1.0 #:latest
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value,
