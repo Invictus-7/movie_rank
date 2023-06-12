@@ -1,7 +1,7 @@
 
 
 
-[![api_yamdb workflow](https://github.com/Invictus-7/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/Invictus-7/yamdb_final/actions/workflows/yamdb_workflow.yml)
+[![MovieRank workflow](https://github.com/Invictus-7/movie_rank/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/Invictus-7/movie_rank/actions/workflows/yamdb_workflow.yml)
 
 ### Описание проекта  
 
